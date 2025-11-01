@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h2>Survey Form</h2>
+    <form action="submit.php" method="POST">
+      <p>
+        1. What is your preferred programming language?<br />
+        <input type="radio" name="language" value="HTML" /> HTML
+        <input type="radio" name="language" value="CSS" /> CSS
+        <input type="radio" name="language" value="JavaScript" /> JavaScript
+      </p>
+
+      <p>
+        2. Which tools have you used before?<br />
+        <input type="checkbox" name="tools" value="VS Code" /> VS Code
+        <input type="checkbox" name="tools" value="Sublime Text" /> Sublime Text
+        <input type="checkbox" name="tools" value="Notepad++" /> Notepad++
+        <input type="checkbox" name="tools" value="Atom" /> Atom
+      </p>
+
+      <p>
+        3. Your current level:<br />
+        <select name="level">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+      </p>
+
+      <p>
+        4. Comments or Feedback:<br />
+        <textarea
+          name="feedback"
+          rows="4"
+          cols="40"
+          placeholder="Write your feedback here..."
+        ></textarea>
+      </p>
+
+      <input type="submit" value="Submit" />
+    </form>
+    <p>Hello, my name is <span style="color: blue;">John</span>.</p>
+  </body>
+</html>

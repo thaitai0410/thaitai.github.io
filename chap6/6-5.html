@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Selectors</title>
+  <style>
+    input[type="checkbox"]:checked {color: red; }
+    input[type="text"]:focus { border: 5px solid red; }
+    button:enabled { background-color: blue; color: white; }
+    button:disabled { background-color: gray; color: #ccc; }
+  </style>
+</head>
+<body>
+  <form>
+    <h2>Checkbox</h2> 
+    <input type="checkbox"> Click to check me
+    <h2>Text Input</h2>
+    <input type="text" placeholder="Focus here">
+    <h2>Buttons</h2>
+    <button>Enabled</button>
+    <button disabled>Disabled</button>
+  </form>
+</body>
+</html>

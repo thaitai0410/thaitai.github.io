@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attribute Selector Example</title>
+  <style>
+    input[placeholder] { background-color: #f9f9f9; padding: 8px; border-radius: 4px; }
+    input[type="email"] { border: 2px solid #007bff; }
+    a[href^="https"] { color: green; font-weight: bold; text-decoration: none; }
+    a[href$=".pdf"] { text-decoration: underline; color: red; }
+    a[href*="download"] { background-color: lightgray; padding: 4px 8px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form>
+    <input type="text" placeholder="Enter your name"><br><br>
+    <input type="email" placeholder="Enter your email"><br><br>
+    <input type="password" placeholder="Enter your password"><br><br>
+    <input type="url" placeholder="Enter your website"><br><br>
+    <button type="submit">Register</button>
+  </form>
+   <h2>Useful Links</h2>
+  <div class="links">
+    <a href="https://example.com">Visit Example</a><br>
+    <a href="https://example.com/download.pdf">Download PDF</a><br>
+    <a href="http://example.com/guide.html">Read Guide</a><br>
+    <a href="https://example.com/download/image.jpg">Download Image</a>
+  </div>
+</body>
+</html>

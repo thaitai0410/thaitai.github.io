@@ -1,0 +1,13 @@
+
+.container p {
+    background-color: gray;
+}
+
+
+.container > p {
+    color: green;
+}
+
+.inner p {
+    font-weight: bold;
+}

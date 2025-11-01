@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+  </head>
+  <body>
+    <form action="next page.asp" method="get">
+      Usename: <input type="text" name="Usename" /><br />
+      Password: <input type="password" name="Password" /><br />
+
+      gender: <input type="radio" name="gender" value="m" /> Male
+      <input type="radio" name="gender" value="f" /> Female
+
+      <br /><br />
+      <input type="checkbox" name="hobby" value="t" /> Tennis
+      <input type="checkbox" name="hobby" value="m" /> Music
+      <input type="checkbox" name="hobby" value="c" checked /> Codding
+      <br /><br />
+
+      Date of birth: <input type="date" name="birth" /> <br /><br />
+      <input
+        type="button"
+        name="button "
+        value="Popup"
+        onclick="alert('this is clicked')"
+      /><br /><br />
+      <input type="submit" name="Submit" /><br /><br />
+
+      Choose a file:
+      <input type="file" name="uploadedFile" /><br /><br />
+      <input type="submit" value="Upload File" />
+    </form>
+  </body>
+</html>
